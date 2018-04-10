@@ -54,6 +54,7 @@ public class ProductController {
 		 if(StringUtils.isNumeric(id))
 		 {
 			l= Long.parseLong(id);
+			l=l/0;
 		 }
 	  else
 		 {
